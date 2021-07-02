@@ -2,10 +2,11 @@
 
 Toggle a raspberry pi GPIO pin on a repeating interval.
 
-```shell
+```
 Usage: ./blink.sh <GPIO Pin Number> [sleep duration]
 
 Optional sleep duration defaults to 1 second.
+
 
 SLEEP(1)                         User Commands                          SLEEP(1)
 
