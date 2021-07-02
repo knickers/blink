@@ -1,6 +1,6 @@
 # Blink
 
-Toggle a raspberry pi GPIO pin on a repeating interval.
+Toggle a raspberry pi GPIO pin on a repeating interval. Makes use of my [gpio-toggle](https://github.com/knickers/gpio-toggle) script.
 
 ```
 Usage: ./blink.sh <GPIO Pin Number> [sleep duration]
