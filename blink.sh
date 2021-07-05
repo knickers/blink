@@ -19,8 +19,13 @@ else
 fi
 
 while true; do
-	gpio-toggle PIN 1
-	sleep SLEEP
-	gpio-toggle PIN 0
-	sleep SLEEP
+	gpio-toggle $PIN 1
+	echo -ne "\rHIGH"
+
+	sleep $SLEEP
+
+	gpio-toggle $PIN 0
+	echo -ne "\rLOW "
+
+	sleep $SLEEP
 done
